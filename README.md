@@ -7,6 +7,8 @@
 （2）把OAuth2文件夹放到ThinkPHP/Library/Vendor目录下
 
 （3）在需要使用到OAuth2的应用的配置或全局配置加上以下内容
+
+    //自定义命名空间
     'AUTOLOAD_NAMESPACE' => array(
     	'OAuth2' => THINK_PATH.'Library/Vendor/OAuth2',
     ),
